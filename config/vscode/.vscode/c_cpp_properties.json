@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/msys64/ucrt64/include/c++/16.1.0",
+                "C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32",
+                "C:/msys64/ucrt64/include/c++/16.1.0/backward",
+                "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include",
+                "C:/msys64/ucrt64/include",
+                "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed",
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "compilerArgs": [
+                "-std=c++26",
+                "-fcontracts",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic"
+            ],
+            "defines": [
+                "__cpp_contracts=202502L",
+                "__cpp_lib_contracts=202502L",
+                "_WIN32",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cppStandard": "c++26",
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "C:/msys64/ucrt64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
