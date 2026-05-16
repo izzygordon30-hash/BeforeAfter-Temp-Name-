@@ -1013,8 +1013,8 @@ int main(void) {
     InitWindow(WIN_W, WIN_H, "BA Language IDE");
     SetTargetFPS(60);
 
-    // Tabs
-    EdTab tabs[MAX_TABS];
+    // Tabs — static so the ~3 MB array lives in BSS, not the stack
+    static EdTab tabs[MAX_TABS];
     memset(tabs, 0, sizeof(tabs));
     int tabCount = 0, activeTab = 0;
     InitSamples(tabs, &tabCount);
