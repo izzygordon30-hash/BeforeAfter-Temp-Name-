@@ -7,6 +7,10 @@
 extern "C" {
 #endif
 
+/**
+ * ## Combo State
+ * Hit Tracking (No Logic)
+ */
 
 
 #ifdef __cplusplus

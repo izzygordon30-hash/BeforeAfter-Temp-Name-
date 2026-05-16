@@ -1,0 +1,21 @@
+# builds
+build/
+*.exe
+
+# ruby
+.ruby-lsp/
+Gemfile.lock
+
+# vscode noise
+.vscode/
+config/vscode/
+
+# temp logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# backup folder (optional to ignore)
+Backup/
