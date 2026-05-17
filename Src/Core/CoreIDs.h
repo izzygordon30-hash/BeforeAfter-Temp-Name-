@@ -47,6 +47,9 @@ typedef core_id core_summon_id;
 /* ### AdditionMachine Port*/
 typedef core_id core_ext_id;
 
+/* ### Scope of an attack*/
+typedef core_id core_scope_id;
+
 /** ### Tag Mask 
  * Bitmask for Tag-Based Systems (e.g., targeting, filtering, interactions)
  * Boss, Flying, Melee, Ranged, Stealth, etc.
